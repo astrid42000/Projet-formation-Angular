@@ -1,0 +1,66 @@
+<!--DEMANDE INSCRIPTION-->
+
+
+
+
+<div id="inscription" class="mx-2 mt-5 mb-5 pb-4 pt-2">
+  <p class="text-center h3 mt-5 mb-5">Pas encore inscrit?</p>
+  <form action="" method="POST" class=" border-blue rounded mx-auto text-center p-3">
+    <h2 class="pt-1 pb-1 mb-5">Demande d'inscription</h2>
+    <div class="form-row mx-auto">
+      <div class="col-11 col-s-12 d-flex mb-3 mt-3 mx-auto">
+        <label for="name" class="col-lg-3 col-md-2 col-sm-2 col-3">Nom</label>
+        <input type="text" id="name" name="name" class="form-control col-lg-9 col-md-10 col-sm-10 col-9" placeholder="Nom" required>
+      </div>
+    </div>
+
+    <div class="form-row mx-auto">
+      <div class="col-11 col-s-12 d-flex mb-3 mt-3 mx-auto">
+        <label for="prenom" class="col-lg-3 col-md-2 col-sm-2 col-3">Prénom</label>
+        <input type="text" id="prenom" name="prenom" class="form-control col-lg-9 col-md-10 col-sm-10 col-9" placeholder="Prénom" required>
+      </div>
+    </div>
+
+    <div class="form-row mx-auto">
+      <div class="col-11 col-s-12 d-flex mb-3 mt-3 mx-auto">
+        <label for="mail" class="col-lg-3 col-md-2 col-sm-2 col-3" >E-mail</label>
+        <input type="email" id="mail" name="mail" class="form-control col-lg-9 col-md-10 col-sm-10 col-9" placeholder="E-mail" required>
+      </div>
+    </div>
+
+    <div class="form-row mx-auto">
+      <div class="col-11 col-s-12 d-flex mb-3 mt-3 mx-auto">
+        <label for="telephone" class="col-lg-3 col-md-2 col-sm-2 col-3" >N° de téléphone</label>
+        <input type="text" id="telephone" name="telephone" class="form-control col-lg-9 col-md-10 col-sm-10 col-9" placeholder="Téléphone" required>
+      </div>
+    </div>
+
+    <div class="form-row mx-auto">
+      <div class="col-11 col-s-12 d-flex mb-3 mt-3 mx-auto">
+        <label for="siret" class="col-lg-3 col-md-2 col-sm-2 col-3" >N° de SIRET</label>
+        <input type="text" id="siret" name="siret" class="form-control col-lg-9 col-md-10 col-sm-10 col-9" placeholder="Siret" required>
+      </div>
+    </div>
+
+    <!--CONDITION VALIDER-->
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+        <label class="form-check-label" for="invalidCheck2">
+          Agree to terms and conditions
+        </label>
+      </div>
+    </div>
+
+    <!--BOUTON VALIDER-->
+
+    <button type="submit" class="btn btn-lg btn-gris mt-4 mb-4 rounded" data-toggle="modal" data-target="#validation">Envoyer</button>
+
+  </form>
+</div>
+
+<!--/DEMANDE INSCRIPTION-->
+
+<!--POP UP-->
+<app-popup-inscription></app-popup-inscription>
+<!--/POP UP-->

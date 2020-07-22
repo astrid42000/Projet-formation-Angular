@@ -1,0 +1,22 @@
+
+
+
+      <div class="card" >
+        <img src="../../../assets/images/image_type.jpg" class="card-img-top" alt="voiture">
+        <div  class="card-body text-center ">
+          <h5 class="card-title h2">{{voiture.nom}}</h5>
+          <h6 class="card-title h3">{{voiture.prix}}</h6>
+          <hr>
+          <p class="card-text">{{voiture.description}}</p>
+          <button [routerLink]="['/detail', voiture.id ]" class="btn btn-primary">En voir plus</button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+

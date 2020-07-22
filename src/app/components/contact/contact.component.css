@@ -1,0 +1,14 @@
+#contact{
+  width:50%;
+}
+
+#contact hr{
+
+  border:1px solid black;
+  height:200px;
+  width:1px;
+}
+
+#contact .champs{
+  width:75%;
+}

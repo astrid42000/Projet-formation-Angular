@@ -1,0 +1,47 @@
+.header{
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+
+//BOUTON//
+.dropdown-menu button:hover{
+  background-color:rgba(202, 205, 224, 0.7);
+
+}
+
+.dropdown-menu a{
+  text-decoration: none;
+  color:#26263e;
+
+}
+
+
+//LOGO ET IMAGE DE FOND//
+
+#logo div{
+  text-align:center;
+}
+
+#logo img{
+  width:100%;
+  margin-top:60px;
+  margin-bottom:60px;
+  border:2px solid rgba(56, 56, 92,0.7);
+  border-radius: 5px;
+
+}
+
+#logo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px groove rgba(56, 56, 92,0.7);
+  width:100%;
+  margin: 0px;
+  padding:0px;
+
+  background-image: url("../../../assets/images/banniere_nuance2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}

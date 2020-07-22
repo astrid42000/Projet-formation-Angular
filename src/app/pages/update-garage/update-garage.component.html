@@ -1,0 +1,44 @@
+<app-header></app-header>
+
+<div *ngIf="!isLoading" >
+
+<div class="mx-auto mt-5 mb-5 text-center border">
+  <h3 class="mb-5 mt-3">Mise à jour garage</h3>
+
+  <form #garageForm="ngForm" (ngSubmit)="update()">
+
+
+    <div class="form-row mx-auto">
+      <div class="col-11 col-s-12 d-flex mb-3 mt-5 mx-auto">
+        <label for="name" class="col-lg-3 col-md-2 col-sm-2 col-3">Nom</label>
+        <input type="text" id="name" name="name" class="form-control col-lg-9 col-md-10 col-sm-10 col-9"  required [(ngModel)]="modifGarage.nom" #nom='ngModel'>
+        <div class="attention" [hidden]="nom.valid">non rempli</div>
+      </div>
+    </div>
+
+    <div class="form-row mx-auto">
+      <div class="col-11 col-s-12 d-flex mb-3 mt-3 mx-auto">
+        <label for="adresse" class="col-lg-3 col-md-2 col-sm-2 col-3">Adresse</label>
+        <input type="text" id="adresse" name="adresse" class="form-control col-lg-9 col-md-10 col-sm-10 col-9" required [(ngModel)]="modifGarage.adresse" #adresse='ngModel'><br>
+        <div class="attention" [hidden]="adresse.valid">non rempli</div>
+      </div>
+    </div>
+
+    <div class="form-row mx-auto">
+      <div class="col-11 col-s-12 d-flex mb-3 mt-3 mx-auto">
+        <label for="tel" class="col-lg-3 col-md-2 col-sm-2 col-3">Téléphone</label>
+        <input type="text" id="tel" name="tel" class="form-control col-lg-9 col-md-10 col-sm-10 col-9"  required [(ngModel)]="modifGarage.telephone" #telephone='ngModel'>
+        <div class="attention" [hidden]="telephone.valid">non rempli</div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-lg btn-gris mt-4 mb-4 rounded"  [disabled]="!garageForm.valid">Enregistrer</button>
+
+  </form>
+
+</div>
+</div>
+
+<div *ngIf="isLoading">chargement en cours....</div>
+
+<app-footer></app-footer>

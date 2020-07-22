@@ -1,0 +1,11 @@
+#propos .card-group{
+  width:50%;}
+
+.card-group{
+  width:50%;
+}
+
+.pagination a{
+  text-decoration: none;
+  color:#26263e;
+}

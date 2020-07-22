@@ -1,0 +1,14 @@
+//titre liste annonces//
+
+.titre_recherche p{
+  border:2px solid rgba(56, 56, 92,0.7);
+  border-radius: 5px;
+}
+
+
+//pagination//
+
+.pagination a{
+  text-decoration: none;
+  color:#26263e;
+}

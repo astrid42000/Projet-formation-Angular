@@ -1,0 +1,44 @@
+body{
+  margin: 0px;
+  padding:0px;
+  width:auto;
+  color:#363657;
+}
+
+h2,h3{
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+  color:#26263e;
+}
+
+
+
+/*couleur navigation, recherche*/
+.bg-blue{
+  background-color: rgba(56, 56, 92,0.7);
+}
+
+.bg-bluedark{
+  background-color: rgb(56, 56, 92);
+}
+
+.bg-fond{
+  background-color :rgba(202, 205, 224, 0.7);
+
+}
+
+.btn-gris{
+  background-color:rgba(202, 205, 224, 0.7);
+}
+
+/*couleur police*/
+.text-blue{
+  color:#26263e;
+}
+
+.border-blue{
+  border:2px solid rgba(56, 56, 92,0.7);
+}

@@ -1,0 +1,26 @@
+<div class="titre_recherche col-11 mx-auto text-center h2">
+  <p>Dernières annonces</p>
+</div>
+<div class=" titre_recherche col-11 mx-auto text-center h2">
+  <p>Résultat de la recherche</p>
+</div>
+
+<section  class="col-md-11 bg-fond mx-auto mb-5 mt-3 rounded">
+  <div class="row mx-auto">
+<app-resume-fiche *ngFor="let voiture of myVoitures" class="resum_fiche col-sm-6 col-md-4 col-lg-3 themed-grid-col mx-auto " [voiture]="voiture" ></app-resume-fiche>
+  </div>
+</section>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Précédente</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Suivante</a>
+    </li>
+  </ul>
+</nav>

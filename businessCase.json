@@ -1,0 +1,182 @@
+{
+  "voiture": [
+    {
+      "id": 1,
+      "nom": "peugeot 208 année 2018",
+      "marque": "Peugeot",
+      "modele": "208",
+      "carburant": "essence",
+      "nbrPortes": 5,
+      "description": "blablablabla",
+      "prix": 30000,
+      "anneeCirc": 2020,
+      "nbrKm": 390000,
+      "img": "lolololo",
+      "garage": {
+        "id": 1,
+        "nom": "Dumass",
+        "adresse": "St Etienne",
+        "telephone": "0688997786"
+      }
+    },
+    {
+      "id": 2,
+      "nom": "renault clio bon état",
+      "marque": "Renault",
+      "modele": "Clio",
+      "carburant": "essence",
+      "nbrPortes": 5,
+      "description": "blablablabla",
+      "prix": 30000,
+      "anneeCirc": 2020,
+      "nbrKm": 390000,
+      "img": "lolololo",
+      "garage": {
+        "id": 2,
+        "nom": "Mathieu",
+        "adresse": "Villars",
+        "telephone": "0678453920"
+      }
+    },
+    {
+      "id": 3,
+      "nom": "peugeot 3008 récente",
+      "marque": "Peugeot",
+      "modele": "3008",
+      "carburant": "gasoil",
+      "nbrPortes": 5,
+      "description": "blablablabla",
+      "prix": 30000,
+      "anneeCirc": 2020,
+      "nbrKm": 390000,
+      "img": "lolololo",
+      "garage": {
+        "id": 1,
+        "nom": "Dumass",
+        "adresse": "St Etienne",
+        "telephone": "0688997786"
+      }
+    },
+    {
+      "id": 4,
+      "nom": "peugeot 2008 occasion",
+      "marque": "Peugeot",
+      "modele": "2008",
+      "carburant": "essence",
+      "nbrPortes": 5,
+      "description": "blablablabla",
+      "prix": 30000,
+      "anneeCirc": 2020,
+      "nbrKm": 390000,
+      "img": "lolololo",
+      "garage": {
+        "id": 3,
+        "nom": "garage du pont",
+        "adresse": "st just st rambert",
+        "telephone": "0467895432"
+      }
+    },
+    {
+      "id": 5,
+      "nom": "renault tres bon etat",
+      "marque": "Renault",
+      "modele": "cccc",
+      "carburant": "gasoil",
+      "nbrPortes": 5,
+      "description": "blablablabla",
+      "prix": 25000,
+      "anneeCirc": 2020,
+      "nbrKm": 15000,
+      "img": "lolololo",
+      "garage": {
+        "id": 2,
+        "nom": "Mathieu",
+        "adresse": "Villars",
+        "telephone": "0678453920"}
+      },
+    {
+      "id": 6,
+      "nom": "DS presque neuve",
+      "marque": "DS",
+      "modele": "DS4",
+      "carburant": "gasoil",
+      "nbrPortes": 5,
+      "description": "blablablabla",
+      "prix": 28000,
+      "anneeCirc": 2019,
+      "nbrKm": 15000,
+      "img": "lolololo",
+      "garage": {
+        "id": 2,
+        "nom": "Mathieu",
+        "adresse": "Villars",
+        "telephone": "0678453920"
+      }
+    }
+
+  ],
+  "marque": [
+    {
+      "id": 1,
+      "nom": "Peugeot"
+    },
+    {
+      "id": 2,
+      "nom": "Renault"
+    },
+    {
+      "id": 3,
+      "nom": "Citroën"
+    },
+    {
+      "id": 4,
+      "nom": "Volkswagen"
+    },
+    {
+      "id": 5,
+      "nom": "Skoda"
+    },
+    {
+      "id": 6,
+      "nom": "Fiat"
+    },
+    {
+      "id": 7,
+      "nom": "Ford"
+    },
+    {
+      "id": 8,
+      "nom": "Audi"
+    },
+    {
+      "id": 9,
+      "nom": "DS"
+    }
+  ],
+  "garages": [
+    {
+      "id": 1,
+      "nom": "Garage Dumas",
+      "adresse": "St Etienne",
+      "telephone": "0688997786"
+    },
+    {
+      "id": 2,
+      "nom": "Garage Mathieu",
+      "adresse": "Villars",
+      "telephone": "0678453920"
+    },
+    {
+      "id": 3,
+      "nom": "garage du pont",
+      "adresse": "st just st rambert",
+      "telephone": "0467895432"
+    }
+  ],
+  "modeles": [
+    {
+      "id": 1,
+      "nom": ""
+    }
+  ]
+}

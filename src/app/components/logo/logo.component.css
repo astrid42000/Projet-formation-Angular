@@ -1,0 +1,28 @@
+
+
+#logo div{
+  text-align:center;
+}
+
+#logo img{
+  width:100%;
+  margin-top:60px;
+  margin-bottom:60px;
+  border:2px solid rgba(56, 56, 92,0.7);
+  border-radius: 5px;
+
+}
+
+#logo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px groove rgba(56, 56, 92,0.7);
+  width:100%;
+  margin: 0px;
+  padding:0px;
+  /*background-color:#cacde0;*/
+  background-image: url("../../../assets/images/banniere_nuance2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}

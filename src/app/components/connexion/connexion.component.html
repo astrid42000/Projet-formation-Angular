@@ -1,0 +1,33 @@
+<!--BOITE CONNEXION-->
+<div id="connexion" class="mx-2 mt-5 mb-5">
+  <form class="border-blue rounded mx-auto text-center p-3">
+    <h2>Connexion</h2>
+    <div class="form-row mx-auto">
+      <div class= "col-10 col-s-12 d-flex mb-3 mt-3 mx-auto">
+        <label  class="col-lg-3 col-md-2 col-sm-2 col-3" for="mail">E-mail</label>
+        <input type="email" class="form-control col-lg-9 col-md-10 col-sm-10 col-9"  id="mail" name="mail" required>
+      </div>
+    </div>
+
+
+    <div class="form-row mx-auto">
+      <div class="col-10 col-s-12 d-flex mb-3 mx-auto">
+        <label class=" col-lg-3 col-md-2 col-sm-2 col-3" for="password">Mot de passe</label>
+        <input type="password" class="form-control col-lg-9 col-md-10 col-sm-10 col-9" id="password" name="password" required>
+      </div>
+    </div>
+
+    <!--afficher si erreur connexion-->
+    <p class="d-none text-danger">Email ou mot de passe invalide</p>
+
+    <!--lien si oubli identifiant-->
+    <a href="contact.html" class="text-warning">Mot de passe oublié?</a><br>
+
+
+    <!--bouton envoyer-->
+    <div >
+      <button class="btn btn-lg btn-gris rounded mt-3 mb-3" type="submit">Envoyer</button>
+    </div>
+  </form>
+</div>
+<!--/BOITE CONNEXION-->

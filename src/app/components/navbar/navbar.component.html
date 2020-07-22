@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-bluedark ">
+  <a class="navbar-brand" routerLink="/accueil" >Centre Auto'Ccas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/apropos">A propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="dropdown">
+    <button (click)="isCollapsed = !isCollapsed" class="btn rounded btn-light dropdown-toggle dropdown-toggle-split text-blue text-center " type="button" id="dropdownMenu" data-toggle="dropdown">
+      Espace Pro
+    </button>
+    <div [collapse]="isCollapsed" class="dropdown-menu dropdown-menu-right">
+      <button class="dropdown-item text-blue text-center" type="button"><a routerLink="/connexion">Se connecter/ s'inscrire</a></button>
+      <div class="dropdown-divider"></div>
+      <button class="dropdown-item text-blue text-center" type="button"><a routerLink="/monProfil">Mon profil</a></button>
+    </div>
+  </div>
+
+</nav>
